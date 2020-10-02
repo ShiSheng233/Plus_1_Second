@@ -14,10 +14,10 @@
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        FontFamily="{DynamicResource MaterialDesignFont}" Icon="/logo.ico" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid HorizontalAlignment="Center" Width="800" Height="435" VerticalAlignment="Bottom">
-        <Button x:Name="plus_one_second_button" Content="+1s" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,271,0,0" Height="54" Width="131" Cursor="Hand" BorderBrush="#FF39C5BB" Background="#FF39C5BB" Click="plus_one_second_button_Click" FontSize="24"/>
-        <TextBlock x:Name="show_click_times" HorizontalAlignment="Center" Margin="0,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="362" FontSize="72" Foreground="#FF39C5BB" TextAlignment="Center"><Run Language="zh-cn" Text="0"/><Run Text="s"/></TextBlock>
+        <Button x:Name="plus_one_second_button" Content="+1s" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,283,0,0" Height="54" Width="132" Cursor="Hand" BorderBrush="#FF39C5BB" Background="#FF39C5BB" Click="plus_one_second_button_Click" FontSize="24"/>
+        <TextBlock x:Name="show_click_times" HorizontalAlignment="Center" Margin="0,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="362" FontSize="72" Foreground="#FF39C5BB" TextAlignment="Center"><Run Language="zh-cn" Text="0"/><Run Text="s"/></TextBlock>
 
     </Grid>
 </Window>

@@ -5,10 +5,19 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>_1s</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logo.ico" />
   </ItemGroup>
 
 </Project>
